@@ -12,7 +12,7 @@ public class ShopByCategoryFunctionality_Elements {
 	@FindBy(xpath = "//*[@id=\"gh-sbc\"]/tbody/tr/td[1]/h3[2]/a")
 	public WebElement clothingAndAccessoriesButton;
 
-	@FindBy(xpath = "//*[@id=\"gh-sbc\"]/tbody/tr/td[1]/ul[2]/li[2]/a]")
+	@FindBy(xpath = "//span[contains(text(),'Men')]")
 	public WebElement men;
 
 	@FindBy(xpath = "//*[@id=\"s0-16-12-0-1[0]-0-0\"]/ul/li[3]/a")
